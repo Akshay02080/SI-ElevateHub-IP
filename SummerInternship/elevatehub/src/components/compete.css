@@ -1,0 +1,30 @@
+.c1{
+    margin: 1rem;
+    border-width: 1px;
+    border-color: rgb(187, 135, 235);
+    transition: all .1s ease;
+    
+}
+.card:hover{
+    border: 2px solid rgb(187, 135, 235);
+    
+    
+}
+.card-header
+{
+    display: flex;
+}
+.image{
+    margin: 5px;
+}
+.instute
+{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.threethings
+{
+    display: flex;
+    justify-content: space-between;
+    
+}

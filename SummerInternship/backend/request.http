@@ -1,0 +1,13 @@
+#Get
+POST http://localhost:3500/user/signup
+Content-Type: application/json
+
+{
+    "userid":2,
+    "username":"akshaykumar",
+    "email":"akshaydogipart@gmail.com"
+}
+
+
+###
+GET http://localhost:3500/user/get

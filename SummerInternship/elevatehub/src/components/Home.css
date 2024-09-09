@@ -1,0 +1,71 @@
+
+
+
+
+/* Styles for the welcome message container */
+.welcome-message {
+    text-align: center; /* Center align the text */
+    margin: 40px 0; /* Add some margin around the message */
+  }
+  
+  /* Styles for the heading */
+  .welcome-message h1 {
+    font-size: 36px; /* Adjust the font size */
+    color: #3F51B5; /* Primary Color: Deep Blue */
+    font-weight: bold; /* Make the text bold */
+    animation: fadeInUp 1.8s ease-in-out; /* Add animation */
+  }
+  
+  /* Styles for the span elements inside the heading */
+  .welcome-message h1 span {
+    color: #4CAF50; /* Secondary Color: Vibrant Green */
+  }
+  
+  /* Styles for the paragraph */
+  .welcome-message p {
+    font-size: 18px; /* Adjust the font size */
+    color: #6b6b6b; /* Neutral Gray for paragraph text */
+    margin-top: 10px; /* Add some space between the heading and paragraph */
+    animation: fadeInUp 1.5s ease-in-out; /* Add animation */
+  }
+  
+  
+  /* Keyframes for fadeInUp animation */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  
+  .btnn:hover{
+    
+   
+     transform: translateY(-5px);
+      /* Add styles for the left side content if needed */
+    }
+  .btnn{
+      width:200px;
+      height: 200px;
+      margin-left:10px ;
+      /* box-shadow: 2px 2px ; */
+    }
+  .h6{
+     color: blue;
+  }
+  .x{
+      width: 200px;
+  }
+  .AboutUs{
+    background-color: rgb(125, 138, 193);
+    color: aliceblue;
+  }
+  
+  .crsl{
+    background-color: rgb(240, 251, 255);
+  }
